@@ -8,6 +8,8 @@ An planner for ADHD, especially based on AI
 
 
 This individual project aims to develop a web application specifically designed to support individuals with ADHD and other mental health conditions. The application will combine a user-friendly front end, a robust back end, and advanced artificial intelligence functionalities to provide personalized and effective support for users.
+Still, there is many ADHD tools to manage time or tasks, however, they are not based on psychological ground, or neurological ground.
+
 
 ==Target Audience==
 
@@ -16,10 +18,14 @@ This individual project aims to develop a web application specifically designed 
 
 
 Front End
-Responsive Design: Ensure the application works flawlessly across all devices (desktops, tablets, smartphones).
+Responsive Design: Ensure the application works flawlessly across all devices (desktops, tablets, smartphones).  
+
 User Interface: Develop a clean, modern, and intuitive interface using React.js or Vue.js, with special considerations for ease of use and minimal distractions.
+
 User Experience: Implement smooth navigation, interactive elements, and real-time feedback to enhance user engagement and reduce cognitive load.
+
 Accessibility: Ensure the application is accessible to users with disabilities, following WCAG guidelines. Include features like text-to-speech and customizable font sizes.
+
 Visualization: For management of Tasks, we utilize viualization skill set, including mind-map and chart diagram.
 
 Back End
