@@ -14,6 +14,13 @@ Still, there is many ADHD tools to manage time or tasks, however, they are not b
 ==Target Audience==
 
 
+
+===Requirement===
+
+1. First Page: Set up the long-term purpose, and generate auto routine with gpt
+2. Second Page: Detailed-way scheduling
+3. CBT, minimizing distraction, and suggest new plan with a flexibility
+
 ==Front End==
 
 
