@@ -14,6 +14,13 @@ Still, there is many ADHD tools to manage time or tasks, however, they are not b
 ==Target Audience==
 
 
+
+===Requirement===
+
+1. First Page: Set up the long-term purpose, and generate auto routine with gpt
+2. Second Page: Detailed-way scheduling
+3. CBT, minimizing distraction, and suggest new plan with a flexibility
+
 ==Front End==
 
 
@@ -39,3 +46,12 @@ Security: Implement strong security measures, including encryption, authenticati
 Scalability: Design the back end to handle a growing number of users and data efficiently, utilizing cloud services like AWS or Azure.
 
 Artificial Intelligence
+
+
+Korean:
+
+개발일정
+
+6월 24일: 기본 컴포넌트 구조, 와이어프레임 짜보기.
+6월 25일: 메인페이지 기능 일부분 구현하기.(To Do 부분)
+6월 26일~: 로그인 및 가입 구현
