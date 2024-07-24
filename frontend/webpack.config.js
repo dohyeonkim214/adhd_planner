@@ -4,8 +4,10 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name].[contenthash].js', // 각 청크에 고유한 이름 지정
+    clean: true, // 이전 빌드 파일 삭제
   },
+  mode: 'development', // 또는 'production'
   module: {
     rules: [
       {
@@ -39,6 +41,15 @@ module.exports = {
       "url": require.resolve("url/"),
       "zlib": require.resolve("browserify-zlib")
     }
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      name(module, chunks, cacheGroupKey) {
+        const allChunksNames = chunks.map((item) => item.name).join('~');
+        return `${cacheGroupKey}-${allChunksNames}`;
+      },
+    },
   },
   devServer: {
     static: {
